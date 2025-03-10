@@ -1,0 +1,175 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: wheat;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    height: 50px;
+    
+}
+
+
+/*fortune*/
+.fortune-box {
+    border: 2px solid black;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    margin: auto;
+    box-shadow: black 0px 0px 10px;
+    max-width: 600px;
+    border-radius: 10px;
+    height: 150px;
+    width: 500px; 
+    position: relative;
+}
+
+.buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.buttons button {
+    padding: 10px 20px;
+    margin: 5px 0;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 50px;
+    background-color: black;
+    color: wheat;
+}
+.buttons button:hover {
+    color: red;
+}
+
+/*stopwatch*/
+.stopwatch-container {
+    text-align: center;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 60px; 
+}
+
+#timerDisplay {
+    font-size: 4em;
+    margin: 20px 0;
+    width: 150px;
+    height: 150px;
+    border: 6px solid black;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+    box-shadow: black 0px 0px 10px;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.controls button {
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 50px;
+    background-color: black;
+    color: wheat;
+}
+.controls button:hover {
+    color: red;
+}
+
+/*todo list*/
+.todo-container {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px; 
+
+
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.row input {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+}
+
+.row button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: black;
+    color: wheat;
+}
+
+.row button:hover {
+    color: red;
+}
+
+
+#list-container {
+    list-style-type: none;
+    padding: 0;
+}
+
+#list-container li {
+    padding: 10px;
+    font-size: 16px;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+#list-container li span {
+    padding: 5px 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: black;
+    color: wheat;
+    margin-left: auto; 
+}
+
+#list-container li span:hover {
+    color: red;
+}
+#list-container li.checked {
+    text-decoration: line-through;
+    color: red;
+}
+
+
+#list-container li i {
+    margin-right: 5px; 
+}
+
+#list-container li {
+    gap: 5px; 
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: auto;
+    background-color: black;
+    color: wheat;
+}
